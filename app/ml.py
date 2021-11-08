@@ -23,7 +23,6 @@ class AI_MODEL:
     metadata = None
 
     def __post_init__(self):
-        print(self.model_path)
         if self.model_path.exists():
             self.model = load_model(self.model_path)
         if self.tokenizer_path:
