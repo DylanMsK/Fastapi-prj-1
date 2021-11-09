@@ -27,4 +27,6 @@ WORKDIR /app
 
 RUN python3 -m venv /opt/venv && /opt/venv/bin/python -m pip install -r requirements.txt
 
+RUN /opt/venv/bin/python -m pypyr  /app/pipelines/ai-model-download
+
 CMD ["entrypoint.sh"]
