@@ -17,6 +17,7 @@ botocore==1.22.9
 brotlipy==0.7.0
 cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
 cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1633010882559/work
+cassandra-driver==3.25.0
 certifi==2021.10.8
 cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1631636297662/work
 chardet @ file:///Users/runner/miniforge3/conda-bld/chardet_1610093454189/work
@@ -32,6 +33,7 @@ entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605
 fastapi==0.70.0
 flatbuffers==1.12
 gast @ file:///home/conda/feedstock_root/build_artifacts/gast_1596839682936/work
+geomet==0.2.1.post1
 google-auth @ file:///home/conda/feedstock_root/build_artifacts/google-auth_1629296548061/work
 google-auth-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/google-auth-oauthlib_1630497468950/work
 google-pasta==0.2.0
