@@ -18,8 +18,9 @@ RUN apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
 
 COPY . /app
-
 WORKDIR /app
+
+RUN chmod +x entrypoint.sh
 
 RUN python3 -m venv /opt/venv && /opt/venv/bin/python -m pip install -r requirements.txt
 
